@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body  {
+    background-color: #0c1020;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 2px 3px #000000;
+    letter-spacing: 1px;
+}
+
+p {
+    letter-spacing: 1px;
+    text-shadow: 3px 2px 3px #000000;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+
+.heading {
+    font-family: 'Sancreek', sans-serif;
+    letter-spacing: 1px;
+}
+
+.logo {
+    font-family: 'Sancreek', sans-serif;
+    text-shadow: 3px 2px 3px #000000;
+}
+.logo_small {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: none;
+}
+.card {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    text-shadow: 2px 2px 3px #000000;
+}
+
+img {
+    filter: drop-shadow(3px 3px 3px #000000);
+}
+
+.border_shadow {
+    box-shadow:inset 1px 1px 2px #000000;
+}
